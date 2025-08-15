@@ -8,6 +8,7 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.verilog" },
+  { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
 }

@@ -1,10 +1,21 @@
-# AstroNvim Template
+# AstroNvim personal config
 
 **NOTE:** This is for AstroNvim v5+
 
 A template for getting started with [AstroNvim](https://github.com/AstroNvim/AstroNvim)
 
+Support：ESP-IDF , verilog
+
+
 ## 🛠️ Installation
+
+#### Ubuntu
+
+If you're on Ubuntu, it's best to install Neovim via Snap. The 0.12.x unstable version can cause some errors with astronlsp.
+
+```shell
+sudo snap install nvim --classic
+```
 
 #### Make a backup of your current nvim and shared folder
 
@@ -24,7 +35,7 @@ You can also just clone this repository directly if you do not want to track you
 #### Clone the repository
 
 ```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
+git clone https://github.com/pansyhou/astronvim_config ~/.config/nvim
 ```
 
 #### Start Neovim
